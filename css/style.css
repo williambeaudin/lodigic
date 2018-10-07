@@ -10,7 +10,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /* ---- base ---- */
 
-html,body{ 
+html,body{
 	width:100%;
 	height:100%;
 	background:#111;
@@ -49,8 +49,8 @@ H5 {
 /* ---- Nav ---- */
 
 nav {
-    z-index: 9999;
-    
+    z-index: 99;
+
 /*
     display: inline-block;
     position: absolute;
@@ -162,7 +162,7 @@ button:focus {
     height: 110vh;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.95);
-    
+
 }
 
 button {
@@ -174,7 +174,7 @@ button {
 
 #particles-js{
   width: 100%;
-  height: 100%;
+  height: 95%;
   background-color: #101010;
   background-image: url('');
   background-size: cover;
@@ -189,7 +189,7 @@ button {
     top: 40vh;
     left: 50%;
     opacity: 0.8;
-    transition: transform 25s; 
+    transition: transform 25s;
     display: flex;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -224,7 +224,7 @@ button {
 
 
 .icon {
-    width:100%; 
+    width:100%;
     height:auto;
 }
 
@@ -412,8 +412,8 @@ a {
 
 
 #slice-1 {
-    transform: translate(-2200px,-730px) rotate(726deg); 
-     transition: all 5s; 
+    transform: translate(-2200px,-730px) rotate(726deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -426,8 +426,8 @@ a {
 }
 
 #slice-2 {
-    transform: translate(-2000px,900px) rotate(-653deg); 
-     transition: all 5s; 
+    transform: translate(-2000px,900px) rotate(-653deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -439,8 +439,8 @@ a {
 }
 
 #slice-3 {
-    transform: translate(-690px,-2900px) rotate(-756deg); 
-     transition: all 5s; 
+    transform: translate(-690px,-2900px) rotate(-756deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -452,8 +452,8 @@ a {
 }
 
 #slice-4 {
-    transform: translate(-980px,2800px)rotate(963deg); 
-     transition: all 5s; 
+    transform: translate(-980px,2800px)rotate(963deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -465,8 +465,8 @@ a {
 }
 
 #slice-5 {
-    transform: translate(1700px,-2700px) rotate(1410deg); 
-     transition: all 5s; 
+    transform: translate(1700px,-2700px) rotate(1410deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -478,8 +478,8 @@ a {
 }
 
 #slice-6 {
-    transform: translate(1600px,2600px) rotate(-1620deg); 
-     transition: all 5s; 
+    transform: translate(1600px,2600px) rotate(-1620deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -494,8 +494,8 @@ a {
 #slice-8 {
     opacity: 0;
     transform: scale(1.2);
-     transition: all 1s; 
-   
+     transition: all 1s;
+
 }
 
 #slice-7.normal,
@@ -509,8 +509,8 @@ a {
 
 
 #slice-9 {
-    transform: translate(-1500px,-2500px) rotate(693deg); 
-     transition: all 5s; 
+    transform: translate(-1500px,-2500px) rotate(693deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -522,8 +522,8 @@ a {
 }
 
 #slice-10 {
-    transform: translate(-1400px,2400px) rotate(3470deg); 
-     transition: all 5s; 
+    transform: translate(-1400px,2400px) rotate(3470deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -535,8 +535,8 @@ a {
 }
 
 #slice-11 {
-    transform: translate(1200px,-2200px) rotate(-437deg); 
-     transition: all 5s; 
+    transform: translate(1200px,-2200px) rotate(-437deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -548,8 +548,8 @@ a {
 }
 
 #slice-12 {
-    transform: translate(1200px,2200px) rotate(880deg); 
-     transition: all 5s; 
+    transform: translate(1200px,2200px) rotate(880deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -561,8 +561,8 @@ a {
 }
 
 #slice-14 {
-    transform: translate(1100px,2100px) rotate(-720deg); 
-     transition: all 5s; 
+    transform: translate(1100px,2100px) rotate(-720deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -575,8 +575,8 @@ a {
 
 
 #slice-15 {
-    transform: translate(500px,-2200px) rotate(-957deg); 
-     transition: all 5s; 
+    transform: translate(500px,-2200px) rotate(-957deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -588,8 +588,8 @@ a {
 }
 
 #slice-16 {
-    transform: translate(400px,2300px) rotate(990deg); 
-     transition: all 5s; 
+    transform: translate(400px,2300px) rotate(990deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -601,8 +601,8 @@ a {
 }
 
 #slice-17 {
-    transform: translate(1400px,-240px) rotate(1357deg); 
-     transition: all 5s; 
+    transform: translate(1400px,-240px) rotate(1357deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -614,8 +614,8 @@ a {
 }
 
 #slice-18 {
-    transform: translate(1500px,950px) rotate(-1020deg); 
-     transition: all 5s; 
+    transform: translate(1500px,950px) rotate(-1020deg);
+     transition: all 5s;
     opacity: 0;
 }
 
@@ -735,4 +735,7 @@ html body, html .slider > .sliderInner > .item .middle, html .slider > .sliderIn
     -ms-transition: all 0.1s ease-out;
     -o-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out;
+}
+.footer{
+	text-align: center;
 }
