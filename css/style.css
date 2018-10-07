@@ -10,11 +10,16 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 /* ---- base ---- */
 
-html,body{
+#page-home {
+  overflow: hidden;
+}
+
+
+html, body{
 	width:100%;
 	height:100%;
 	background:#111;
-    overflow: hidden;
+	/* overflow: hidden; */
 }
 
 html{
@@ -738,4 +743,228 @@ html body, html .slider > .sliderInner > .item .middle, html .slider > .sliderIn
 }
 .footer{
 	text-align: center;
+}
+/*-------------------------------*/
+/*  Team  */
+/*-------------------------------*/
+
+p {
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 40px;
+    margin-bottom: 30px;
+/*    font-size: 1.2em;*/
+}
+
+.section-team h2 {
+	color: #f2f2f2;
+	padding-top: 100px;
+	margin-left: 25px;
+}
+
+.team-name {
+    margin: 4%;
+}
+
+.team-photo img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.team-name h3,
+h4{
+    text-align: left;
+    color: white;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    color: #c4c4c4;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 0.1rem;
+    transform: scale(1, 0.85);
+}
+
+.team-name
+h4{
+    color: #919191;
+    font-size: 1.2em;
+}
+
+.section-team p {
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: 0.01em;
+}
+
+
+@media screen and (max-width: 500px){
+.section-team p {
+    text-align: left;
+}
+}
+
+.section-team h2:after {
+    margin-bottom: 10px;
+}
+/*-------------------------------*/
+/*  Contact form  */
+/*-------------------------------*/
+
+.section-contact h2 {
+	color: #f2f2f2;
+	padding-top: 100px;
+	margin-left: 25px;
+}
+
+.input {
+    margin: auto;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    background-color: white;
+    text-transform:uppercase;
+    color: #151515;
+    min-width: 90px;
+    border: none;
+
+}
+
+.btn-primary:hover,.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #151515;
+    border: none;
+}
+
+
+/*
+.section-contact .svg-inline--fa {
+    font-size: 3em;
+}
+*/
+
+.section-contact a {
+    color:  #151515;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-contact p {
+    color:  #151515;
+    font-size: 20px;
+}
+
+.section-contact h2{
+    color:  #fff;
+    font-size: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-contact h2:after{
+    color:  #fff;
+}
+
+.contact-link {
+        padding-bottom: 5px;
+}
+
+.contact-link {
+
+    text-decoration: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    transition: border-bottom 0.3s;
+
+}
+
+.section-contact:hover .contact-link{
+
+     border-bottom: 3px solid #151515;
+
+}
+
+
+
+.section-contact .fa-angle-right {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.section-contact:hover .fa-angle-right {
+    opacity: 1;
+}
+
+.contact-link {
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.section-contact {
+    padding-bottom: 50px;
+    text-align: center;
+    display: block;
+    position: relative;
+    background-color: rgba(0,0,0,0.65)
+
+
+}
+
+.section-contact::after {
+  content: "";
+    background-image: url("../../ressources/css/img/header-1.jpg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
+
+.form-control {
+  background-color: #fff;
+  line-height: 2.5;
+  border:  #151515;
+}
+
+.contact-form2 {
+        margin: auto;
+        text-align: left;
+}
+
+
+.col-form {
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.col-md-6 {
+    float: none;
 }
